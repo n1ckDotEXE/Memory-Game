@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Card from './components/Card';
+import MemoryCard from './MemoryCard.js';
 
 import './App.css';
 
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <div className="App-header">
         <h1>Memory Game</h1>
-        <h4>Match Cards to Win!</h4>
+        <h4 class="subtitle">Match Cards to Win!</h4>
       </div>
       { projects.map((project, index) => {
         return <Card
