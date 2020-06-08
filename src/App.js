@@ -8,8 +8,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Card></Card>
-      <Card></Card>
+      <Card name="This is a card showing of a String" likes="3"></Card>
+      <Card name="This is card 2!"></Card>
       <Card></Card>
       <Card></Card>
       <Card></Card>
